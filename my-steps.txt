@@ -219,7 +219,27 @@ To github.com:kbliss86/my-project.git
 branch 'main' set up to track 'origin/main'.
 
 ### Step 6
+Kendall@Kendall-PC MINGW64 ~/bootcamp_c_sharp/unit1-git-practice (main)
+$ git add .
+warning: in the working copy of 'my-steps.txt', CRLF will be replaced by LF the next time Git touches it
 
+Kendall@Kendall-PC MINGW64 ~/bootcamp_c_sharp/unit1-git-practice (main)
+$ git commit -m 'added menu text file'
+[main 79ab204] added menu text file
+ 2 files changed, 160 insertions(+), 23 deletions(-)
+ create mode 100644 menu.txt
+
+Kendall@Kendall-PC MINGW64 ~/bootcamp_c_sharp/unit1-git-practice (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kendall/.ssh/id_ed25519':
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 6.52 KiB | 6.52 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:kbliss86/my-project.git
+   44d7e75..79ab204  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
